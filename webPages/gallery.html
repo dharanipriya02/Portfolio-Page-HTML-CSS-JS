@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+<!--The meta tag is used by browser fro how to display content and how to find in the search ingine-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Indra Bahadur Oli">
+	<meta name="revised" content="20/05/2018">
+	<meta name="description" content="Portfolio website -Indra Bahadur Oli">
+	<meta name="keywords" content="Portfolio, CV, Photo, Indra">
+
+	<title>Gallery -Indra Bahadur Oli</title>
+	<!--Importing javascript and css from external file-->
+	<script type="text/javascript" src="../javaScript/datetime.js"></script>
+	<link href="../css/index_style.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	<header id="header1">See photo slides or achevements</header>
+	<!--this is the navigation bar of gallery page-->
+		<div id="navBar">
+
+	        <div class="menus"><a href="contact.html">Contact</a></div>
+
+	        <div class="menus"><a href="research.html">Research</a></div>
+
+	        <div class="menus"><a href="gallery.html"><span style="color: #0F0;">Gallery</span></a></div>
+
+	        <div class="menus"><a href="blog.html">Blog</a></div>
+
+	        <div class="menus"><a href="portfolio.html">Portfolio</a></div>
+
+	    	<div class="menus"><a href="../index.html">Home</a></div>
+
+	    	<div class="name"><p id="date"></p>
+	    	<!--call the function from external javascript file after importing above-->
+	    		<script type="text/javascript">
+	    			display_date();
+	    		</script>
+	    		
+	    	</div>
+		</div>
+	</header>
+  <!--inside this div tag main contents are holds -->
+	<div class="body">
+		<div class="photos">
+			<h1 id="Trainign">Trainign Acheivements</h1><br>
+			<div class="fade">
+
+				<div class="shadow" style="display: inline-block;">
+					<img  style="padding-right: 50px;" src="../media/indra_c.bmp" alt="photos" width="333" height="430" />
+					<div class="caption">
+					    <p>C and C++ programming</p>
+					</div>
+				</div>
+
+				<div class="shadow" style="display: inline-block; margin-left: 16px; margin-right: 33px;">
+					<img style="padding-right: 50px;" src="../media/indra_j.bmp" width="333" height="430" />
+					<div class="caption">
+					    <p>Java programming</p>
+					</div>
+				</div>
+
+				<div class="shadow" style="display: inline-block; margin-left: 12px; margin-right: 5px;">
+					<img src="../media/indra_w.bmp" width="333" height="430"/>
+					<div class="caption">
+					    <p>Web Designing</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="photos">
+			<h1>Other Photos</h1><br>
+			<div class="fade">
+
+				<div class="shadow" style="display: inline-block; width: 520px;">
+					<img style="padding-right: 50px;" src="../media/indraH2.jpg" alt="photos" width="520" height="400" />
+					<div class="caption">
+					    <p>At College</p>
+					</div>
+				</div>
+
+				<div class="shadow" style="display: inline-block; width: 520px;  margin-left: 12px; margin-right: 5px;">
+					<img style="padding-right: 50px;" src="../media/IndraNature.jpg" alt="photos" width="520" height="400" />
+					<div class="caption">
+					    <p>With the Nature</p>
+					</div>
+				</div>
+
+				
+				
+			</div>
+		</div>
+
+
+    </div>
+	<footer>
+		<div id="footer"><center>&copy; 2018 All Rights Reserved. <a style="text-decoration: none; color: #708090;" href="../index.html"> Indra Bahadur Oli</a><br>Contact No.:977-9858028298<br><a class="email" href="mailto:indraoli429@icloud.com">Email:indraoli429@icloud.com</a></center>
+		</div>
+	</footer>
+</body>
+
+</html>
