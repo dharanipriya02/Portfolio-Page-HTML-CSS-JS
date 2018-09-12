@@ -53,7 +53,7 @@
 
 			<div id="hire" class="hire">
 			<!--this form tag for creating a form -->
-				<form name="hire_form" onsubmit="hire_me()">	<!--calling feedback function after clicking the buttons-->
+				<form name="hire_form" onsubmit="hire_me()" action="#">	<!--calling feedback function after clicking the buttons-->
 					<div class="hire_field"> <center><b><span style="font-size: 25px; font-style: italic; font-family:cursive;">Hire Indra</span></b></center> As a:
 					<select class="hire_field" style="width: 86%;" name="employee">
 						    <option value="programmer">Programmer</option>
@@ -77,7 +77,7 @@
 				</form>				
 			</div>
 
-			<div id="feedback" class="feedback">
+			<div id="feedback" class="feedback" action="#">
 				<form name="feedback_form" onsubmit="feedback()">	<!--calling feedback function after clicking the buttons-->
 					<div><center><b><br><span style="font-size: 25px; font-style: italic; font-family:cursive;">Say something</span></b></center>
 					<input required="name" class="feedback_field" type="text" name="FullName" placeholder="Full Name"></div>
